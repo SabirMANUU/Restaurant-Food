@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Food mood</h1>
+            </div>
+            <div class="input">
+                <input type="text" value="" id="inp" placeholder="Search Here ..." onkeyup="myFun()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="icon">
+                <i onclick="login()" class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i onclick="nav()" class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+
+        <div class="login">
+            <h2>Log In </h2>
+            <input type="text" placeholder="Enter Your Name">
+            <input type="password" placeholder="Enter Password"> <br>
+            <button>Log In</button>
+
+        </div>
+        <div class="nav">
+            <p>Home</p>
+            <p>Foods</p>
+            <p>Blog</p>
+            <p>Customer</p>
+
+
+        </div>
+
+        <!-- main Page -->
+
+        <div class="main">
+            <div class="text">
+                <h1>Simple & Tasty Recipes</h1>
+                <p>Looking for easy meals? Our simple and tasty recipes help you cook delicious food with everyday ingredients. Perfect for beginners or busy cooks who want quick, homemade dishes without any hassle.
+</p>
+                <button>Explore More</button>
+            </div>
+            <img src="image/burger1.jpeg" alt="">
+        </div>
+
+        <!--  Card Food -->
+
+        <table>
+            <tr>
+                <td>
+                    <div class="head">
+                        <h1>Our <span>Foods</span></h1>
+                    </div>
+                    <div class="crd">
+                        <div class="card">
+                            <img src="image/burger2.jpeg" alt="">
+                            <h2>99 Rupees Only</h2>
+                            <p>Enjoy delicious and fulfilling meals at just 99 rupees only! A perfect budget-friendly option without compromising on taste. Ideal for students, families, and food lovers looking for quality at a low price.
+                            </p>
+                            <button>Order Now</button>
+                        </div>
+                        <div class="card">
+                            <img src="image/burger3.jpeg" alt="">
+                            <h2>119 Rupees Only</h2>
+                        <p>Grab your favorite juicy burger at just 119 rupees only! Made with fresh ingredients, loaded with flavor, and perfect for any craving. A tasty deal you can’t resist at an unbeatable price.
+                            </p>                            
+                        <button>Order Now</button>
+                        </div>
+                        <div class="card">
+                            <img src="image/burger4.jpeg" alt="">
+                            <h2>199 Rupees Only</h2>
+                        <p>Enjoy a complete meal with a delicious burger and crispy French fries for just 199 rupees only! A perfect combo of taste and value that’s sure to satisfy your hunger and cravings.
+                        </p>                            
+                    <button>Order Now</button>
+                        </div>
+                    </div>
+
+                    <div class="crd">
+                        <div class="card">
+                            <img src="image/burger5.jpeg" alt="">
+                            <h2>249 Rupees Only</h2>
+                            <p>Celebrate sweet moments with our delicious cake at just 249 rupees only! Soft, fresh, and full of flavor — perfect for birthdays, parties, or any special day that deserves a tasty treat.
+                            </p>      
+                          <button>Order Now</button>
+                        </div>
+                        <div class="card">
+                            <img src="image/burger6.jpeg" alt="">
+                            <h2>279 Rupees Only</h2>
+                        <p>Indulge in our spicy and flavorful All Meat Masala for just 279 rupees only! Packed with rich spices and tender meat, it's a perfect treat for non-veg lovers craving a bold desi taste.
+                        </p>                  
+                          <button>Order Now</button>
+                        </div>
+                        <div class="card">
+                            <img src="image/burger7.jpeg" alt="">
+                            <h2>89 Rupees Only</h2>
+                            <p>Get a hot and tasty plate of fried rice for just 89 rupees only! Loaded with veggies and flavors, it’s the perfect quick meal for lunch or dinner without breaking the budget.
+                        </p>                            
+                         <button>Order Now</button>
+                        </div>
+                    </div>
+                </td>
+
+
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="head">
+                        <h1>Our <span>Blogs</span></h1>
+                    </div>
+                    <div class="crd">
+                        <div class="blog">
+                            <img src="image/burger6.jpeg" alt="">
+                            <h2>Fact About Indian Food</h2>
+                            <p>Indian food is known for its rich spices and diverse flavors. Every region has its unique dishes, often using ingredients like turmeric, cumin, and chili that not only add taste but also health benefits.
+                            </p>
+                            <a href="https://www.littleindiaofdenver.com/blog/7-facts-you-never-knew-about-indian-food/">Read More</a>
+                        </div>
+                        <div class="blog">
+                            <img src="image/burger9.jpg" alt="">
+                            <h2>Diffrent Type of Burger</h2>
+                            <p>Burgers come in many tasty varieties like classic chicken, spicy paneer, cheesy veg, double patty, and BBQ. Each type offers a unique flavor, perfect for every mood and craving, anytime you’re hungry!
+                            </p>
+                            <a href="https://www.finedininglovers.com/article/burger-types-famous-to-make">Read More</a>
+                        </div>
+                        <div class="blog">
+                            <img src="image/burger8.jpeg" alt="">
+                            <h2>Delicious Checken Recipes</h2>
+                            <p>Try our delicious chicken recipes made with flavorful spices and simple ingredients. From spicy curries to grilled delights, enjoy tasty homemade dishes perfect for every occasion and craving.
+                            </p>                               
+                            <a href="https://themodernproper.com/60-best-chicken-breast-recipes">Read More</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Customer Review -->
+
+
+        <div class="head">
+            <h1>Customer <span>Review</span></h1>
+        </div>
+        <div class="review">
+
+            <div class="customer">
+                <img src="image/men1.jpeg" alt=""> <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p>The food was delicious, perfectly cooked, and served hot. Great taste and excellent value for money!</p>
+                </p>                
+            </div>
+            <div class="customer">
+                <img src="image/men2.jpg" alt=""> <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p>Loved the flavors and quick service! The burger and fries combo was absolutely satisfying and fresh.
+                </p>
+                
+            </div>
+            <div class="customer">
+                <img src="image/men3.jpeg" alt=""> <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p>Excellent quality and taste! The chicken recipe was juicy, flavorful, and perfectly cooked. </p>
+                
+            </div>
+
+            
+        </div>
+        <div class="btn">
+            <button onclick="pre()">Prev</button>
+            <button onclick="next()">Next</button>
+
+        </div>
+
+        <div class="footer">
+            <div class="txt">
+                <h2>About US</h2>
+                <p>Serving fresh, tasty food with love, care, and passion daily.</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+
+            </div>
+            <div class="txt">
+                <!-- <h2>Product</h2>
+                <p>Product</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p> -->
+
+            </div>
+            <div class="txt">
+                <h2>Our Food</h2>
+                <p>Near</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+
+            </div>
+            <div class="txt">
+                <h2>Services</h2>
+                <p>Websites</p>
+                <p>Service</p>
+                <p>Customer</p>
+                <p>Foods</p>
+
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
